@@ -1,0 +1,62 @@
+{
+  "name": "REFramework Elsa - Transacciones con maestro de cliente",
+  "description": "Réplica del REFramework para procesos de Elsa que tengan como Input un maestro de cliente (en excel) y como output un reporte de ejecución que será enviado al cliente y un reporte de consumo mensual. ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Elsa_Generación_de_reportes": "[1.0.28]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.GSuite.Activities": "[1.8.0]",
+    "UiPath.Mail.Activities": "[1.10.4]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.12",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "00e78c0d-c75e-4a43-80de-3ecde59d8128",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": true,
+  "templateProjectData": {
+    "defaultProjectDescription": "Template para procesos de Elsa.",
+    "defaultProjectName": "REFramework con reporte de status"
+  },
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
